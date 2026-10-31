@@ -3,7 +3,7 @@ pipeline {
         label '!windows'
     }
     tools {
-        maven 'Maven3'
+        maven 'Maven 3'
     }
     options {
         skipStagesAfterUnstable()
