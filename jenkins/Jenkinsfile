@@ -2,6 +2,9 @@ pipeline {
     agent {
         label '!windows'
     }
+    tools {
+        maven 'Maven3'
+    }
     options {
         skipStagesAfterUnstable()
     }
